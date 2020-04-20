@@ -1,0 +1,152 @@
+/* common styles */
+body {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Noto Sans', sans-serif;
+        font-color: lightgrey;
+    }
+
+/* common nav styles */
+
+.navigation-wrapper {
+    height: 100px;
+    background-color: black;
+    
+    /* flexbox container */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .navigation-wrapper a {
+        color:lightgrey;
+        text-decoration: none;
+        font-size: 2em;
+        transition: 0.4s;
+    }
+    
+    .navigation-wrapper a:hover {
+        color: rgb(255, 166, 0);
+    }
+
+    /* center image styles */
+    .home-page-image-wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+   
+
+/* footer */
+.footer > .bozeman-wrapper {
+    background-color: black;
+    color: lightgrey;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+ /* .map a:hover {
+    color: rgb(255, 166, 0); */
+
+.footer a {
+    color: lightgrey;
+}
+.map {
+    color: lightgrey;
+    display: grid;
+    padding: 10px;
+
+}
+.map a:hover {
+    color: rgb(255, 166, 0);
+}    
+    .copyright-wrapper {
+        background-color: black;
+        color: lightgrey;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 100px;
+        margin-top: -5px;
+    }
+    
+    h1 {
+        padding-top: 30px;
+        margin: 0px;
+        display:flex;
+        justify-content: center;
+        color: rgb(255, 166, 0);
+    }
+    p {
+        font-size: 18px;
+        text-align: justify;
+        display:flex;
+        padding-left: 100px;
+        color: rgb(255, 166, 0);
+    
+    }
+
+
+
+/* about page */
+.whole-page-background{
+    background-image: url(images/backgrounds/home-background\ -image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+
+/* songlist wrapper */
+.songlist-wrapper {
+    color: rgb(255, 166, 0);
+    font-size: 3em;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    padding-left: 300px;
+}
+
+
+.tensongs-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+.music-note {
+    color:rgb(255, 166, 0);
+    font-size: 2em;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+ 
+
+/* song h3llomynameis sample */
+.sample-song-wrapper {
+    display:flex;
+    
+    padding-left: 300px;
+    padding-right: 100px;
+    
+}
+.list-of-songs-wrapper {
+    color: rgb(255, 166, 0);
+    display: flex;
+    font-size: 1em;
+    padding-left: 270px;
+}
+
+/* contact page */
+/* .pic-4-image-wrapper {
+    width: 100%;
+} */
